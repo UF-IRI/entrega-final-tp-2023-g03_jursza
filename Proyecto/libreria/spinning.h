@@ -20,3 +20,7 @@ struct Spinning {
     sCliente* clientes;
     //enum horaSpi horario_sp;
 }; typedef struct Spinning sSpinning;
+
+bool hayEspacio(sSpinning* claseSpinning);
+// ABM
+void reservarTurnoSpinning(sSpinning* claseSpinning, sCliente cliente);

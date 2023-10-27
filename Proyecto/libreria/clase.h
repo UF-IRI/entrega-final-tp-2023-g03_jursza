@@ -13,3 +13,5 @@ struct clase{
 
     }; typedef struct Clase sClase;
 };
+
+void reservarTurno(sClase* clases, sCliente cliente);

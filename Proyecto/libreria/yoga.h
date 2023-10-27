@@ -14,3 +14,9 @@ struct Yoga {
     u_int cupoActual;
     sCliente* clientes;
 }; typedef struct Yoga sYoga;
+
+bool hayEspacio(sYoga* claseYoga);
+// ABM
+void reservarTurnoYoga(sYoga* claseYoga, sCliente cliente);
+void bajaCliente(sYoga* claseYoga, sCliente cliente);
+void modificarCliente(sYoga* clseYoga, sCliente anterior, sCliente nuevo);
