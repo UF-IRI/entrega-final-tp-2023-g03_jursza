@@ -11,8 +11,13 @@ SOURCES += \
     libreria.cpp
 
 HEADERS += \
+    clase.h \
+    cliente.h \
+    encabezados.h \
     libreria_global.h \
-    libreria.h
+    libreria.h \
+    spinning.h \
+    yoga.h
 
 # Default rules for deployment.
 unix {
